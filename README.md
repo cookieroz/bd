@@ -1,7 +1,8 @@
 # bd
 
-- single page vue application showing top deals
+- vue application showing top deals
 - clicking on one deal opens a modal window to see further details
+- demo site: [bd](http://bd.cookieroz.com/)
 
 ## Build Setup
 
