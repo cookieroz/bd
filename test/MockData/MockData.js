@@ -1,0 +1,91 @@
+export const deal = {
+  alternate_headline: null,
+  alternate_image_urls: null,
+  brads_deals_exclusive: false,
+  brands: ['DeWalt'],
+  categories: [
+    {
+      uri: '/api/v1/categories/tools-diy-supplies',
+      name: 'Tools & DIY Supplies',
+      slug: 'tools-diy-supplies',
+    },
+  ],
+  coupons: [],
+  coupon_code: '',
+  description:
+    'This pair of <a href="https://www.bradsdeals.com/go/p/454825">DeWalt Impact-Resistant Work Gloves</a> is on sale for $7.49.',
+  description_preview:
+    'This pair of DeWalt Impact-Resistant Work Gloves is on sale for $7.49 at That Daily Deal. Shippin...',
+  details: '',
+  editor: 'Tom',
+  editor_bd_user_id: '81719438',
+  exclude_from_pds: false,
+  expires_at: '2020-07-05T23:59:00.000-04:00',
+  flags: [{ name: 'Deals Under $15', slug: 'deals-under-15', id: 173 }],
+  gender: 'n',
+  go_link: 'https://www.bradsdeals.com/go/p/454825',
+  headline: 'DeWalt Work Gloves $9 Shipped',
+  id: 454825,
+  image:
+    'https://cdn-images.bradsdeals.com/prod/363333/deal_160x160/dewalt-work-gloves.jpeg',
+  image_urls: {
+    '310x310':
+      'https://cdn-images.bradsdeals.com/prod/363333/deal_310x310/dewalt-work-gloves.jpeg',
+    original:
+      'https://cdn-images.bradsdeals.com/prod/363333/original/dewalt-work-gloves.jpeg',
+  },
+  instructions: '',
+  like_count: 0,
+  marketing_description: null,
+  marketing_headline: null,
+  marketing_image_urls: null,
+  merchant: {
+    coupon_count: 0,
+    coupon_type_counts: {
+      online: 0,
+      online_with_codes: 0,
+      other: 0,
+      printable: 0,
+      promotion: 0,
+    },
+    deal_count: 3,
+    id: 6530,
+    logo:
+      'https://cdn-images.bradsdeals.com/prod/351442/merchant_125x40/logo-tdd-forbd.png',
+    logo_urls: {
+      original:
+        'https://cdn-images.bradsdeals.com/prod/351442/original/logo-tdd-forbd.png',
+    },
+    merchant_rules: {
+      disable_social_sharing: false,
+      disable_mobile_view: false,
+      hide_expiration_date: false,
+      coupon_name: 'coupon',
+      advertising_disclosure: false,
+      deal_go_link_text: null,
+      seo_validation: false,
+      alternate_disclaimer: '',
+    },
+    name: 'That Daily Deal',
+    payment_types: [],
+    site_url: 'www.thatdailydeal.com',
+    slug: 'that-daily-deal',
+    uri: '/api/v1/merchants/that-daily-deal',
+  },
+  msrp: '29.99',
+  price: '7.49',
+  primary_category: {
+    uri: '/api/v1/categories/tools-diy-supplies/home-improvement-supplies',
+    name: 'Home Improvement Supplies',
+    slug: 'tools-diy-supplies/home-improvement-supplies',
+  },
+  quote: '<p>They are machine washable.</p>',
+  ranking: '4.74',
+  related_deals_uri: '/api/v1/deals/454825/related',
+  shipped_price: '8.98',
+  shipping_cost: '1.49',
+  starts_at: '2020-07-05T09:16:00.000-04:00',
+  teaser_headline: '$9 DeWalt Work Gloves',
+  third_party_pixel: '',
+  uri: '/api/v1/deals/454825',
+}
